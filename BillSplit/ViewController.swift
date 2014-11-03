@@ -21,11 +21,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         formatter.numberStyle = NSNumberFormatterStyle.CurrencyStyle
-        formatter.locale = NSLocale(localeIdentifier: "en_US")
-        
         updateDisplay()
     }
     
@@ -35,11 +32,11 @@ class ViewController: UIViewController {
     }
     
     func updateDisplay() {
-        totalAmountField.text = "\(formatCurrency(totalAmount))"
-        numberOfSplitsLabel.text = "\(Int(splitStepper.value))"
+        totalAmountField.text = formatCurrency(totalAmount)
+        numberOfSplitsLabel.text = String(Int(splitStepper.value))
         
         let splitAmount = totalAmount * Double(tipPercentageSlider.value) / splitStepper.value
-        splitAmountLabel.text = "\(formatCurrency(splitAmount))"
+        splitAmountLabel.text = formatCurrency(splitAmount)
     }
 
     @IBAction func stepperChanged(sender: AnyObject) {
