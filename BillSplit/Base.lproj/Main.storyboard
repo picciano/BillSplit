@@ -89,14 +89,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Each person pays:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBP-UV-KRZ">
-                                <rect key="frame" x="16" y="258" width="143" height="21"/>
+                                <rect key="frame" x="16" y="215" width="143" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$###.##" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHB-kG-0or">
-                                <rect key="frame" x="167" y="258" width="62" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="167" y="215" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -105,21 +105,21 @@
                         <constraints>
                             <constraint firstItem="Az5-Si-Caa" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="5xm-ln-wfd"/>
                             <constraint firstItem="58k-wK-mH1" firstAttribute="leading" secondItem="1qk-In-IKK" secondAttribute="trailing" constant="3" id="7Uk-Qj-eIx"/>
+                            <constraint firstItem="YBP-UV-KRZ" firstAttribute="leading" secondItem="1qk-In-IKK" secondAttribute="leading" id="9pL-1J-Ub4"/>
                             <constraint firstItem="aXM-eF-WTC" firstAttribute="top" secondItem="KkG-XC-dl1" secondAttribute="bottom" constant="37" id="EcE-Hq-4SZ"/>
                             <constraint firstItem="Ere-5u-9SY" firstAttribute="top" secondItem="XGu-gv-KEQ" secondAttribute="bottom" constant="39" id="GcN-Y1-0vB"/>
                             <constraint firstItem="Ere-5u-9SY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Hew-JG-SfT"/>
-                            <constraint firstItem="YBP-UV-KRZ" firstAttribute="leading" secondItem="1qk-In-IKK" secondAttribute="leading" id="IxQ-Wg-iXT"/>
+                            <constraint firstItem="uHB-kG-0or" firstAttribute="leading" secondItem="YBP-UV-KRZ" secondAttribute="trailing" constant="8" symbolic="YES" id="Hhh-7q-rBl"/>
                             <constraint firstItem="1qk-In-IKK" firstAttribute="top" secondItem="Ere-5u-9SY" secondAttribute="bottom" constant="42" id="N8X-rU-vBr"/>
-                            <constraint firstItem="uHB-kG-0or" firstAttribute="baseline" secondItem="YBP-UV-KRZ" secondAttribute="baseline" id="Pcf-dN-mTv"/>
                             <constraint firstItem="aXM-eF-WTC" firstAttribute="leading" secondItem="58k-wK-mH1" secondAttribute="trailing" constant="15" id="RUn-eh-td3"/>
                             <constraint firstItem="KkG-XC-dl1" firstAttribute="top" secondItem="Az5-Si-Caa" secondAttribute="bottom" constant="30" id="VzE-Ov-5tJ"/>
                             <constraint firstItem="1qk-In-IKK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="e6q-n9-xV0"/>
+                            <constraint firstItem="uHB-kG-0or" firstAttribute="top" secondItem="58k-wK-mH1" secondAttribute="bottom" constant="35" id="eQh-Zk-suJ"/>
                             <constraint firstItem="XGu-gv-KEQ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="12" id="lO5-jb-3Hr"/>
                             <constraint firstItem="58k-wK-mH1" firstAttribute="top" secondItem="KkG-XC-dl1" secondAttribute="bottom" constant="33" id="lqo-xU-A41"/>
                             <constraint firstItem="KkG-XC-dl1" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="lve-3n-Da0"/>
-                            <constraint firstItem="uHB-kG-0or" firstAttribute="leading" secondItem="YBP-UV-KRZ" secondAttribute="trailing" constant="8" symbolic="YES" id="mEu-Fi-TqW"/>
                             <constraint firstItem="Az5-Si-Caa" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="qk8-Oz-qNY"/>
-                            <constraint firstItem="YBP-UV-KRZ" firstAttribute="top" secondItem="1qk-In-IKK" secondAttribute="bottom" constant="82" id="tvg-nI-oap"/>
+                            <constraint firstItem="uHB-kG-0or" firstAttribute="baseline" secondItem="YBP-UV-KRZ" secondAttribute="baseline" id="rVS-d8-pt0"/>
                             <constraint firstItem="KkG-XC-dl1" firstAttribute="leading" secondItem="Ere-5u-9SY" secondAttribute="trailing" constant="8" id="v2w-Pw-nFc"/>
                             <constraint firstItem="XGu-gv-KEQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="wHg-OQ-nAC"/>
                         </constraints>
